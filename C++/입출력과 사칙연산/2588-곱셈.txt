@@ -1,0 +1,19 @@
+#include <iostream>
+#include <iomanip>
+#include <string>
+
+using namespace std;
+
+int main(void)
+{
+    int A;
+    char B[4];
+
+    cin >> A;
+    cin >> B;
+
+    cout << A * (B[2] - '0') << "\n";
+    cout << A * (B[1] - '0') << "\n";
+    cout << A * (B[0] - '0') << "\n";
+    cout << A * atoi(B) << "\n";
+}
